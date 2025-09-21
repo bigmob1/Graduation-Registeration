@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>ثبت نام جشن فارغ‌التحصیلی</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>ثبت نام جشن فارغ‌التحصیلی</h1>
+
+        <div class="costs-section">
+            <p>هزینه ثبت نام (شخص اصلی): <span id="main-cost">۰</span> تومان</p>
+            <p>هزینه هر مهمان: <span id="guest-cost">۰</span> تومان</p>
+            <p>هزینه تندیس: <span id="statue-cost">۰</span> تومان</p>
+        </div>
+
+        <div class="form-container">
+            <div class="form-group">
+                <label for="attending">آیا در مراسم شرکت می‌کنید؟</label>
+                <input type="checkbox" id="attending" name="attending">
+            </div>
+
+            <div class="form-group guest-count-group" style="display: none;">
+                <label for="guests">تعداد مهمان (تا سقف ۳ نفر):</label>
+                <select id="guests" name="guests">
+                    <option value="0">۰</option>
+                    <option value="1">۱</option>
+                    <option value="2">۲</option>
+                    <option value="3">۳</option>
+                </select>
+            </div>
+
+            <div class="form-group">
+                <label for="statue">آیا تندیس یادبود می‌خواهید؟</label>
+                <input type="checkbox" id="statue" name="statue">
+            </div>
+        </div>
+        
+        <div class="total-cost-box">
+            <h3>هزینه نهایی:</h3>
+            <p><span id="final-cost">۰</span> تومان</p>
+        </div>
+
+        <div class="payment-info">
+            <h3>نحوه پرداخت</h3>
+            <p>لطفاً مبلغ نهایی را به شماره کارت زیر واریز نمایید:</p>
+            <p class="card-number">**۶۰۳۷-۹۹۸۱-۲۳۴۵-۶۷۸۹**</p>
+            <p>بعد از واریز، **اطلاعات خود را در فرم زیر ثبت کنید:**</p>
+            <a href="**[لینک گوگل فرم شما]**" class="google-form-link" target="_blank">ثبت اطلاعات در گوگل فرم</a>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>

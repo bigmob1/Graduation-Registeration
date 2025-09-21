@@ -1,0 +1,76 @@
+body {
+    direction: rtl;
+    font-family: 'Vazirmatn', sans-serif; /* فونت رو به دلخواه تغییر بدید */
+    background-color: #f0f2f5;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.container {
+    background-color: #fff;
+    padding: 2.5rem;
+    border-radius: 12px;
+    box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 650px;
+    text-align: center;
+    color: #333;
+}
+
+h1 {
+    color: #007bff;
+    margin-bottom: 1.5rem;
+}
+
+.costs-section, .total-cost-box, .payment-info {
+    margin: 1.5rem 0;
+    padding: 1.2rem;
+    border-radius: 8px;
+    background-color: #e9ecef;
+}
+
+.form-container {
+    padding: 1.5rem;
+    border-radius: 8px;
+    background-color: #f8f9fa;
+}
+
+.form-group {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 1rem;
+    font-size: 1.1rem;
+}
+
+.card-number {
+    font-size: 1.3rem;
+    font-weight: bold;
+    color: #007bff;
+    direction: ltr; /* برای نمایش بهتر شماره کارت */
+}
+
+.google-form-link {
+    display: inline-block;
+    background-color: #28a745;
+    color: #fff;
+    padding: 0.8rem 1.5rem;
+    border-radius: 5px;
+    text-decoration: none;
+    margin-top: 1rem;
+    font-size: 1rem;
+    transition: background-color 0.3s;
+}
+
+.google-form-link:hover {
+    background-color: #218838;
+}
+
+#attending, #statue {
+    transform: scale(1.5);
+    margin-left: 10px;
+}
+
