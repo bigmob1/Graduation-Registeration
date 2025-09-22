@@ -1,8 +1,8 @@
 document.addEventListener('DOMContentLoaded', () => {
     // ⚙️ هزینه‌ها را اینجا تعریف کنید
-    const mainCost = 150000; // هزینه ثبت نام اصلی (تومان)
-    const guestCost = 80000;  // هزینه هر مهمان (تومان)
-    const statueCost = 50000; // هزینه تندیس (تومان)
+    const mainCost = 200000; // هزینه ثبت نام اصلی (تومان)
+    const guestCost = 100000;  // هزینه هر مهمان (تومان)
+    const statueCost = 250000; // هزینه تندیس (تومان)
 
     // نمایش هزینه‌ها در صفحه
     document.getElementById('main-cost').textContent = mainCost.toLocaleString() + ' تومان';
